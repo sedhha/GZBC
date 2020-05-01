@@ -1,1 +1,1 @@
-TinDog Starting Files
+This is just a sample file.
