@@ -16,7 +16,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   <!-- Google Fonts -->
-
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
@@ -30,42 +30,42 @@
 
   <section id="title">
     <div class="container-fluid">
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">GAZABE Corp</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Product Solutions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact Us</a>
-          </li>
-        </ul>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">GAZABE Corp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Product Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Open Source Automation Solutions</h1>
+          <button type="button" class="btn btn-outline-light btn-lg initButtons">Meet the Founders</button>
+          <button type="button" class="btn btn-outline-dark btn-lg initButtons">Learn more</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/FeatureImage.png" alt="GZB Corp">
+        </div>
+
       </div>
-    </nav>
-
-
-
-
-    <!-- Title -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>Open Source Automation Solutions</h1>
-        <button type="button" class="btn btn-outline-light btn-lg initButtons">Meet the Founders</button>
-        <button type="button" class="btn btn-outline-dark btn-lg initButtons">Learn more</button>
-      </div>
-      <div class="col-lg-6">
-        <img class="title-image" src="images/FeatureImage.png" alt="GZB Corp">
-      </div>
-
-    </div>
     </div>
 
   </section>
@@ -102,21 +102,38 @@
 
   <section id="testimonials">
 
-    <h2>I had this dream where I wanted to see human computers
-      pushing all extents of automation and remodelling a completely new world.
-      GZB Corp is a step towards my dream that one day I would love to
-      see as reality.</h2>
-    <img src="images/meh.jpg" alt="Shivam">
-    <em>Shivam, Automation Engineer, GZB</em>
-    <h2>I am good for nothing and did a really bad job in helping my
-      team during my college days, so I thought why not give another try,
-      and here I am in front of you.</h2>
-    <img src="images/sa.jpg" alt="Saurabh">
-    <em>Saurabh, Marketing Engineer, GZB</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="TMessage">"I had this dream where I wanted to see human computers
+            pushing all extents of automation and remodelling a completely new world.
+            GZB Corp is a step towards my dream that one day I would love to
+            see as reality."</h2>
+          <img class="testimonialdp" src="images/meh.jpg" alt="Shivam">
+          <em>Shivam, Automation Engineer, GZB</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="TMessage">"I am good for nothing and did a really bad job in helping my
+            team during my college days, so I thought why not give another try,
+            and here I am in front of you."</h2>
+          <img class="testimonialdp" src="images/sa.jpg" alt="Saurabh">
+          <em>Saurabh, Marketing Engineer, GZB</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
   </section>
 
@@ -124,10 +141,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="PressSize" src="images/techcrunch.png" alt="tc-logo">
+    <img class="PressSize" src="images/tnw.png" alt="tnw-logo">
+    <img class="PressSize" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="PressSize" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
@@ -135,49 +152,84 @@
   <!-- Pricing -->
 
   <section id="pricing">
-
     <h2>Domains</h2>
     <p>Here are our current project domains:</p>
-
-
-    <h3>Machine Learning</h3>
-    <h2>Ongoing Project...</h2>
-    <p>Opimization Algorithms</p>
-    <p>Raw Data processing</p>
-    <p>Custom Datasets</p>
-    <button type="button">Check this</button>
-
-
-    <h3>Blockchain Technology</h3>
-    <h2>Not yet started</h2>
-    <p>Development Server</p>
-    <p>Custom Block Design</p>
-    <p>Multi level Hashing support</p>
-    <button type="button">Check this</button>
-
-
-    <h3>Data Analytics and Automation</h3>
-    <h2>Ongoing Project...</h2>
-    <p>Custom report Design</p>
-    <p>UI software</p>
-    <p>API Integration</p>
-    <p>Intuitive visualization</p>
-    <button type="button">Check this</button>
-
-    <h3>Computer Vision and Automation</h3>
-    <h2>Ongoing Project...</h2>
-    <p>AR/VR Interface</p>
-    <p>Facial recognition</p>
-    <p>Multiscale Feature Detection</p>
-    <button type="button">Check this</button>
-
-    <h3>IOT and Instrumentation</h3>
-    <h2>Ongoing Project...</h2>
-    <p>Smart Home sensors</p>
-    <p>Infrared Instrumentation</p>
-    <p>Stereo Vision and Depth Camera</p>
-    <p>Spectroscopy</p>
-    <button type="button">Check this</button>
+    <div class="card-deck">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="card">
+      <div class="card-header">
+        <h3>Machine Learning</h3>
+      </div>
+      <div class="card-body">
+        <h2>Ongoing Project...</h2>
+        <p>Opimization Algorithms</p>
+        <p>Raw Data processing</p>
+        <p>Custom Datasets</p>
+        <button class="btn btn-lg btn-outline-dark" type="button">Check this</button>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="card">
+      <div class="card-header">
+        <h3>Blockchain Technology</h3>
+      </div>
+      <div class="card-body">
+        <h2>Not yet started</h2>
+        <p>Development Server</p>
+        <p>Custom Block Design</p>
+        <p>Multi level Hashing support</p>
+        <button class="btn btn-lg btn-outline-dark" type="button">Check this</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="card">
+      <div class="card-header">
+          <h3>Data Analytics and Automation</h3>
+      </div>
+      <div class="card-body">
+        <h2>Ongoing Project...</h2>
+        <p>Custom report Design</p>
+        <p>UI software</p>
+        <p>API Integration</p>
+        <p>Intuitive visualization</p>
+        <button class="btn btn-lg btn-outline-dark" type="button">Check this</button>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="card">
+      <div class="card-header">
+          <h3>Computer Vision and Automation</h3>
+      </div>
+      <div class="card-body">
+        <h2>Ongoing Project...</h2>
+        <p>AR/VR Interface</p>
+        <p>Facial recognition</p>
+        <p>Multiscale Feature Detection</p>
+        <button class="btn btn-lg btn-outline-dark" type="button">Check this</button>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="card">
+      <div class="card-header">
+          <h3>IOT and Instrumentation</h3>
+      </div>
+      <div class="card-body">
+        <h2>Ongoing Project...</h2>
+        <p>Smart Home sensors</p>
+        <p>Infrared Instrumentation</p>
+        <p>Stereo Vision and Depth Camera</p>
+        <p>Spectroscopy</p>
+        <button class="btn btn-lg btn-outline-dark" type="button">Check this</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
 
   </section>
 
@@ -186,9 +238,16 @@
 
   <section id="cta">
 
-    <h3>Find the Right Solution for your Automation Needs Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="CopyrightSection">Find the Right Solution for your Automation Needs Today.</h3>
+    <a href="">
+      <img class="ImageSocialConnect" src="images/linkedin.png" alt="Linkedin">
+    </a>
+    <a href="">
+      <img class="ImageSocialConnect" src="images/quora.png" alt="Quora">
+    </a>
+    <a href="">
+      <img class="ImageSocialConnect" src="images/twitter.png" alt="Twitter">
+    </a>
 
   </section>
 
@@ -197,7 +256,7 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2020 GAZABE Corp 👈👉</p>
+    <p class="CopyrightSection CPFooter">© Copyright 2020 GAZABE Corp 👈👉</p>
 
   </footer>
 
